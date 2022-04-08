@@ -11,8 +11,8 @@ class Area : public QWidget
 public:
     Area(QWidget *parent = 0); // конструктор
     ~Area();
-    MyLine *myline;
-    MyRect *myrect;
+    MyLine *myline; // линия
+    MyRect *myrect; // квадрат
 protected:
     // обработчики событий
     void paintEvent(QPaintEvent *event);

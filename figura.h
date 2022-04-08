@@ -7,7 +7,7 @@ class Figura
 {
 protected:
     int x, y, halflen, dx, dy, r;
-    virtual void draw(QPainter *Painter) = 0;
+    virtual void draw(QPainter *Painter) = 0; // нужна будет в наследуемых классах
 public:
     Figura(int X,int Y,int Halflen) :
         x(X), y(Y), halflen(Halflen){} // конструктор

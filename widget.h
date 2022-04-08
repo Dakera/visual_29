@@ -12,7 +12,7 @@ class Widget : public QWidget, private Ui::Widget
 protected:
     //QTextCodec *codec;
     Area * area; // область отображения рисунка
-    QPushButton * btn;
+    QPushButton * btn; // кнопка
 public:
     Widget();
     ~Widget();
